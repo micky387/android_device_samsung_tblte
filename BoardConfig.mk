@@ -21,14 +21,12 @@ TARGET_OTA_ASSERT_DEVICE := tblte,tbltedt,tbltecan,tbltespr,tbltetmo,tblteusc,tb
 # Camera
 TARGET_FIXUP_PREVIEW := true
 
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_tblte_eur_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_apq8084
 TARGET_LIBINIT_APQ8084_DEFINES_FILE := device/samsung/tblte/init/init_tblte.cpp
-TARGET_UNIFIED_DEVICE := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/tblte-common/releasetools
