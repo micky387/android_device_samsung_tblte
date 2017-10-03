@@ -1,4 +1,5 @@
 #
+# Copyright (C) 2014 The CyanogenMod Project
 # Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +18,7 @@
 $(call inherit-product, device/samsung/tblte/full_tblte.mk)
 
 # Inherit common LineageOS phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := tblte
 PRODUCT_NAME := lineage_tblte
