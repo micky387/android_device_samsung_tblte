@@ -24,6 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/tblte/overlay
 
 # Variant blobs script
 PRODUCT_COPY_FILES += \
+    device/samsung/tblte/releasetools/variant_blobs_hook.sh:install/bin/variant_blobs_hook.sh \
     device/samsung/tblte-common/releasetools/variant_blobs.sh:install/bin/variant_blobs.sh
 
 # common tblte
