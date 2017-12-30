@@ -42,5 +42,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27040657408
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/trlte-common/releasetools
 
+# Radio/RIL
+include $(COMMON_PATH)/radio/single/board.mk
+
 # inherit from the proprietary version
 -include vendor/samsung/tblte/BoardConfigVendor.mk
