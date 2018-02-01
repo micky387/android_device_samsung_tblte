@@ -68,21 +68,13 @@ void init_target_properties()
 
     std::string bootloader = property_get("ro.bootloader");
 
-    if (bootloader.find("N915F") == 0) {
-        /* tbltexx */
-        property_override("ro.build.fingerprint", "samsung/tblte/tblte:6.0.1/MMB29M/N915FYXXS1DPG1:user/release-keys");
-        property_override("ro.build.description", "tbltexx-user 6.0.1 MMB29M N915FYXXS1DPG1 release-keys");
-        property_override("ro.product.model", "SM-N915F");
-        property_override("ro.product.device", "tblte");
-        property_override("ro.product.name", "tblte");
-        gsm_properties();
-    } else if (bootloader.find("N915FY") == 0) {
-        /* tbltedt */
-        property_override("ro.build.fingerprint", "samsung/tbltebtu/tblte:6.0.1/MMB29M/N915FYXXS1DPG1:user/release-keys");
-        property_override("ro.build.description", "tbltebtu-user 6.0.1 MMB29M N915FYXXS1DPG1 release-keys");
+    if (bootloader.find("N915FY") == 0) {
+        /* tbltexx These values are taken from tbltexx and edited for the 915FY FIXME */
+        property_override("ro.build.fingerprint", "samsung/tbltebtu/tblte:6.0.1/MMB29M/N915FYXXS1DQH2:user/release-keys");
+        property_override("ro.build.description", "tbltebtu-user 6.0.1 MMB29M N915FYXXS1DQH2 release-keys");
+        property_override("ro.product.name", "tbltexx");
         property_override("ro.product.model", "SM-N915FY");
         property_override("ro.product.device", "tblte");
-        property_override("ro.product.name", "tbltexx");
         gsm_properties();
     } else if (bootloader.find("N915G") == 0) {
         /* tbltedt */
@@ -133,7 +125,13 @@ void init_target_properties()
         property_override("ro.product.name", "tbltecan");
         gsm_properties();
     } else {
-        ERROR("Setting product info FAILED\n");
+        /* tblte */
+        property_override("ro.build.fingerprint", "samsung/tbltebtu/tblte:6.0.1/MMB29M/N915FYXXS1DQH2:user/release-keys");
+        property_override("ro.build.description", "tbltebtu-user 6.0.1 MMB29M N915FYXXS1DQH2 release-keys");
+        property_override("ro.product.model", "SM-N915F");
+        property_override("ro.product.device", "tblte");
+        property_override("ro.product.name", "tblte");
+        gsm_properties();
     }
 
     std::string device = property_get("ro.product.device");
