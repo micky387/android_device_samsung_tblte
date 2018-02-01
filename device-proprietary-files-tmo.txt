@@ -36,13 +36,6 @@ bin/mdm_helper_proxy:blobs/tmo/bin/mdm_helper_proxy
 bin/netmgrd:blobs/tmo/bin/netmgrd
 bin/qcks:blobs/tmo/bin/qcks
 bin/qmuxd:blobs/tmo/bin/qmuxd
-bin/rild:blobs/tmo/bin/rild
-bin/rmnetcli:blobs/tmo/bin/rmnetcli
-lib/libreference-ril.so:blobs/tmo/lib/libreference-ril.so
-lib/libril.so:blobs/tmo/lib/libril.so
-lib/librmnetctl.so:blobs/tmo/lib/librmnetctl.so
 lib/libsec-ril.so:blobs/tmo/lib/libsec-ril.so
-lib/libsecril-client.so:blobs/tmo/lib/libsecril-client.so
-lib/libsecnativefeature.so:blobs/tmo/lib/libsecnativefeature.so
 vendor/lib/libril-qcril-hook-oem.so:blobs/tmo/vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libcneapiclient.so:blobs/tmo/vendor/lib/libcneapiclient.so

@@ -36,13 +36,6 @@ bin/mdm_helper_proxy:blobs/vzw/bin/mdm_helper_proxy
 bin/netmgrd:blobs/vzw/bin/netmgrd
 bin/qcks:blobs/vzw/bin/qcks
 bin/qmuxd:blobs/vzw/bin/qmuxd
-bin/rild:blobs/vzw/bin/rild
-bin/rmnetcli:blobs/vzw/bin/rmnetcli
-lib/libreference-ril.so:blobs/vzw/lib/libreference-ril.so
-lib/libril.so:blobs/vzw/lib/libril.so
-lib/librmnetctl.so:blobs/vzw/lib/librmnetctl.so
 lib/libsec-ril.so:blobs/vzw/lib/libsec-ril.so
-lib/libsecril-client.so:blobs/vzw/lib/libsecril-client.so
-lib/libsecnativefeature.so:blobs/vzw/lib/libsecnativefeature.so
 vendor/lib/libril-qcril-hook-oem.so:blobs/vzw/vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libcneapiclient.so:blobs/vzw/vendor/lib/libcneapiclient.so
