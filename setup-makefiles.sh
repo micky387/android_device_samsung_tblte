@@ -19,7 +19,7 @@
 set -e
 
 export DEVICE=tblte
-export DEVICE_COMMON=tblte-common
+export DEVICE_COMMON=trlte-common
 export VENDOR=samsung
 
 ./../$DEVICE_COMMON/setup-makefiles.sh $@

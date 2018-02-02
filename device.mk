@@ -22,7 +22,7 @@ $(call inherit-product-if-exists, vendor/samsung/tblte/tblte-vendor.mk)
 # mixer_paths.xml workaround
 PRODUCT_COPY_FILES += \
     device/samsung/tblte/releasetools/mixer_paths_eur.sh:install/bin/mixer_paths_eur.sh \
-    device/samsung/tblte-common/audio/mixer_paths_eur.xml:install/bin/mixer_paths_eur.xml
+    device/samsung/trlte-common/audio/mixer_paths_eur.xml:install/bin/mixer_paths_eur.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/tblte/overlay
@@ -30,7 +30,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/tblte/overlay
 # Variant blobs script
 PRODUCT_COPY_FILES += \
     device/samsung/tblte/releasetools/variant_blobs_hook.sh:install/bin/variant_blobs_hook.sh \
-    device/samsung/tblte-common/releasetools/variant_blobs.sh:install/bin/variant_blobs.sh
+    device/samsung/trlte-common/releasetools/variant_blobs.sh:install/bin/variant_blobs.sh
 
 # common tblte
-$(call inherit-product, device/samsung/tblte-common/tblte.mk)
+$(call inherit-product, device/samsung/trlte-common/trlte.mk)

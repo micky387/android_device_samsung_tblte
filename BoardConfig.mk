@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # inherit from common tblte
--include device/samsung/tblte-common/BoardConfigCommon.mk
+-include device/samsung/trlte-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := tblte,tbltedt,tbltecan,tbltespr,tbltetmo,tblteusc,tbltevzw,tbltexx
 
@@ -36,7 +36,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3774873600
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27040657408
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/tblte-common/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/trlte-common/releasetools
 
 # inherit from the proprietary version
 -include vendor/samsung/tblte/BoardConfigVendor.mk
