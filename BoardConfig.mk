@@ -18,10 +18,17 @@
 
 TARGET_OTA_ASSERT_DEVICE := tblte,tbltedt,tbltecan,tbltespr,tbltetmo,tblteusc,tbltevzw,tbltexx
 
+# Bootanimation
+TARGET_SCREEN_WIDTH := 1600
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/tblte/bluetooth
+
 # Camera
 TARGET_FIXUP_PREVIEW := true
 
 # Kernel
+BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3b7 dwc3_msm.cpu_to_affin=1
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_tblte_eur_defconfig
 
 # Init

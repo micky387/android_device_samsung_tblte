@@ -22,7 +22,7 @@ $(call inherit-product-if-exists, vendor/samsung/tblte/tblte-vendor.mk)
 # mixer_paths.xml workaround
 PRODUCT_COPY_FILES += \
     device/samsung/tblte/releasetools/mixer_paths_eur.sh:install/bin/mixer_paths_eur.sh \
-    device/samsung/trlte-common/audio/mixer_paths_eur.xml:install/bin/mixer_paths_eur.xml
+    device/samsung/trlte-common/audio/mixer_paths_tblte_eur.xml:install/bin/mixer_paths_tblte_eur.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/tblte/overlay
