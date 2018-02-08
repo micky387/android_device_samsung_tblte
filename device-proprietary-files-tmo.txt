@@ -17,8 +17,8 @@ vendor/lib/libqmiservices.so:blobs/tmo/vendor/lib/libqmiservices.so
 lib/libprotobuf-cpp-full.so:blobs/tmo/vendor/lib/libprotobuf-cpp-full.so
 bin/efsks:blobs/tmo/vendor/bin/efsks
 bin/ks:blobs/tmo/vendor/bin/ks
-bin/mdm_helper:blobs/tmo/vendor/bin/mdm_helper
-bin/mdm_helper_proxy:blobs/tmo/vendor/bin/mdm_helper_proxy
+bin/mdm_helper:blobs/tmo/vendor/bin/mdm_helper|a2e80d0dd3bf9d3f87cc4e9de2337420
+bin/mdm_helper_proxy:blobs/tmo/vendor/bin/mdm_helper_proxy|1898318c842a0dd0ac29074507f64c53
 bin/netmgrd:blobs/tmo/vendor/bin/netmgrd
 bin/qcks:blobs/tmo/vendor/bin/qcks
 bin/qmuxd:blobs/tmo/vendor/bin/qmuxd
