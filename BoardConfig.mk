@@ -21,9 +21,6 @@ TARGET_OTA_ASSERT_DEVICE := tblte,tbltedt,tbltecan,tbltespr,tbltetmo,tblteusc,tb
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1600
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/tblte/bluetooth
-
 # Camera
 TARGET_FIXUP_PREVIEW := true
 
